@@ -57,7 +57,7 @@ List<QuestionModel> questions = [
   }),
   QuestionModel("What is the purpose of the final keyword in Dart?", {
     "It defines class properties and methods": false,
-    "It is used to declare a constant value": false,
+    "It is used to declare changing values": false,
     "It indicates a variable value cannot be changed": true,
     "It enables the use of static variables": false,
   }),

@@ -100,8 +100,6 @@ class _QuizzScreenState extends State<QuizzScreen> {
                                     .toList()[i]) {
                                   score++;
                                   // print("yes");
-                                } else {
-                                  // print("no");
                                 }
                                 setState(() {
                                   btnPressed = true;

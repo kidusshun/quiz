@@ -23,12 +23,28 @@ class _MainMenuState extends State<MainMenu> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            SizedBox(
+              height: 75,
+            ),
             const Center(
               child: Text(
                 "Quiz App",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 48,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 45,
+            ),
+            Center(
+              child: Text(
+                "Test your Knowledge",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 36,
                   fontWeight: FontWeight.bold,
                 ),
               ),
