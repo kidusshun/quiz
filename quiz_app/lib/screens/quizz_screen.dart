@@ -67,9 +67,6 @@ class _QuizzScreenState extends State<QuizzScreen> {
                     height: 10.0,
                   ),
                   SizedBox(
-                    height: 10,
-                  ),
-                  SizedBox(
                     width: double.infinity,
                     height: 200.0,
                     child: Text(
