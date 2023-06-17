@@ -13,7 +13,7 @@ class _MainMenuState extends State<MainMenu> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColor.pripmaryColor,
+      backgroundColor: AppColor.primaryColor,
       body: Padding(
         padding: const EdgeInsets.symmetric(
           vertical: 48.0,

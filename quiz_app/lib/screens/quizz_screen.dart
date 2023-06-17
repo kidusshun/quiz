@@ -28,7 +28,7 @@ class _QuizzScreenState extends State<QuizzScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColor.pripmaryColor,
+      backgroundColor: AppColor.primaryColor,
       body: Padding(
           padding: const EdgeInsets.all(18.0),
           child: PageView.builder(
@@ -52,7 +52,7 @@ class _QuizzScreenState extends State<QuizzScreen> {
                   SizedBox(
                     width: double.infinity,
                     child: Text(
-                      "Question ${index + 1}/10",
+                      "Question ${index + 1}",
                       textAlign: TextAlign.start,
                       style: const TextStyle(
                         color: Colors.white,
@@ -65,6 +65,9 @@ class _QuizzScreenState extends State<QuizzScreen> {
                   ),
                   const SizedBox(
                     height: 10.0,
+                  ),
+                  SizedBox(
+                    height: 10,
                   ),
                   SizedBox(
                     width: double.infinity,
@@ -137,7 +140,7 @@ class _QuizzScreenState extends State<QuizzScreen> {
                       }
                     },
                     shape: const StadiumBorder(),
-                    fillColor: Colors.blue,
+                    fillColor: AppColor.accentColor,
                     padding: const EdgeInsets.all(18.0),
                     elevation: 0.0,
                     child: Text(

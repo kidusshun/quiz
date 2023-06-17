@@ -2,70 +2,70 @@ import 'package:quiz_app/model/question_model.dart';
 
 List<QuestionModel> questions = [
   QuestionModel(
-    "How Many Whiskers does the average cat have on each side of its face ?",
+    "Which keyword is used to define a function in Python?",
     {
-      "1": false,
-      "3": false,
-      "12": true,
-      "5,007": false,
+      "def": true,
+      "function": false,
+      "define": false,
+      "fn": false,
     },
   ),
-  QuestionModel("When does a cat purr ?", {
-    "When it cares for its kittens": false,
-    "When it needs confort": false,
-    "When it feels content": false,
-    "All of the above": true,
-  }),
-  QuestionModel("What is the averge nulber of kittens in a litter ?", {
-    "1 to 2": false,
-    "3 to 5": true,
-    "8 to 10": false,
-    "12 to 14": false,
-  }),
-  QuestionModel("How many moons does Mars have ?", {
-    "1": false,
-    "2": false,
-    "4": true,
-    "8": false,
-  }),
-  QuestionModel("What is Mars's nickname ?", {
-    "The red planet": true,
-    "The dusty planet": false,
-    "The hot planet": false,
-    "The smelly planet": false,
-  }),
-  QuestionModel("About How long would it take to travel to Mars ?", {
-    "Three days": false,
-    "A month": false,
-    "Eight months": true,
-    "Two years": false,
+  QuestionModel("Which of the following is a popular Python web framework?", {
+    "react": false,
+    "ruby": false,
+    "django": true,
+    "flutter": false,
   }),
   QuestionModel(
-      "Mars is Named after the Roman god Mars. What is he the god of ?", {
-    "Fire": false,
-    "Love": false,
-    "Agriculture": false,
-    "War": true,
-  }),
-  QuestionModel("Mars Is the ___ planet from the sun ?", {
-    "Secon": false,
-    "Third": false,
-    "Fourth": true,
-    "Sixth": false,
-  }),
-  QuestionModel(
-      "Where did Orville and Wilbur Wright build their first flying airplane ?",
+      "Which Python data type is used to store multiple items in a single variable?",
       {
-        "Paris, France": false,
-        "Boston, Massachusetts": false,
-        "Kitty Hawk, North Carolina": true,
-        "Tokyou, Japan": false,
+        "String": false,
+        "Integer": false,
+        "Boolean": false,
+        "List": true,
       }),
+  QuestionModel("What is the purpose of the main() function in Dart?", {
+    "It is the entry point of a Dart program": true,
+    "It defines class methods": false,
+    "It performs arithmetic operations": false,
+    "It handles exceptions and errors": false,
+  }),
+  QuestionModel("What does the print(); function do in dart?", {
+    "Takes user input from the console": false,
+    "Displays output on the console": true,
+    "Reads data from a file": false,
+    "Performs mathematical calculations": false,
+  }),
   QuestionModel(
-      "The First astronuts to travel to space came from which country ?", {
-    "United States": false,
-    "Soviet Union (now Russia)": true,
-    "China": false,
-    "Rocketonia": false,
+      "Which Dart keyword is used to define a conditional statement?", {
+    "if": true,
+    "for": false,
+    "while": false,
+    "var": false,
+  }),
+  QuestionModel("What does the await keyword do in Dart?", {
+    "It pauses the execution of a function until a result is ready": true,
+    "It performs string concatenation": false,
+    "It calculates mathematical expressions": false,
+    "It handles errors and exceptions": false,
+  }),
+  QuestionModel("What is the purpose of the async keyword in Dart?", {
+    "It provides networking capabilities": false,
+    "It is used to define asynchronous functions": true,
+    "It allows access to the computer's file system": false,
+    "It performs string manipulation operations": false,
+  }),
+  QuestionModel("What is the purpose of the final keyword in Dart?", {
+    "It defines class properties and methods": false,
+    "It is used to declare a constant value": false,
+    "It indicates a variable value cannot be changed": true,
+    "It enables the use of static variables": false,
+  }),
+  QuestionModel(
+      "Which Dart data type is used to represent a true or false value?", {
+    "int": false,
+    "bool": true,
+    "double": false,
+    "string": false,
   }),
 ];
